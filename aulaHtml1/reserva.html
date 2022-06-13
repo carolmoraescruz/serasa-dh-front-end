@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+</head>
+<body>
+    <div>
+        <header>
+            <img src="img/logo.png" alt="CMC Viagens" />
+        </header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Promoções</li>
+                <li>Passagens</li>
+                <li>Hospedagem</li>
+                <li>Pacotes</li>
+            </ul>
+        </nav>
+
+        <section>
+            <form name="reserva" method="post" enctype="multipart/form-data" action="#">
+                
+                <label for="nome"> Nome: 
+                    <input type="text" id="nome" class="form-text" required maxlength="35"
+                    placeholder="Informe seu nome completo"/>
+                </label>
+                
+                <label for="email"> E-mail: 
+                    <input type="email" id="email" class="form-text" required maxlength="100"
+                    placeholder="user@teste.com"/>
+                </label>
+                
+                <label for="tel"> Tel: 
+                    <input type="tel" id="tel" class="form-text" required maxlength="15"
+                    placeholder="(xx) 99999-9999"/>
+                </label>
+                
+                <label for="hoteis">Hotéis e Resorts</label>
+                <select id="hoteis" name="hoteis">
+                    <option value="Cancun Bay">Cancún Bay Resort</option>
+                    <option value="Coral Beach">Coral Beach Resort</option>
+                    <option value="Haven Riviera">Haven Riviera Resort</option>
+                </select>
+                
+                <label for="adultos">Adultos: </label>
+                <input type="number" id="adultos" name="adultos" min="1" max="6" />
+                
+                <label for="criancas">Crianças: </label>
+                <input type="number" id="criancas" name="criancas" min="1" max="3" />
+
+                <input type="submit" id="enviar" />
+            
+            </form>
+
+        </section>
+
+        <footer>
+            <img src="img/logo.png" alt="CMC Viagens" />
+            <ul>
+                <li>Insta</li>
+                <li>Twitter</li>
+                <li>Face</li>
+            </ul>
+            <p>
+                &copy; CMC Viagens - Brasil - 2022
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
