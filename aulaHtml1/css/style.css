@@ -1,0 +1,44 @@
+.container{
+    background-color: #f2f2f2;
+    /*background-image: url(../img/Cancun-3.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+    background-image: linear-gradient(blue, aquamarine, white); */
+
+}
+
+.header{
+    background-color: gold;
+}
+
+.nav-bar li{
+    float: left;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: blue;
+    margin: 0px;
+    padding: 5px;
+}
+
+.nav-bar li a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+.nav-bar li a:hover {
+    background-color: gold;
+    color: blue;
+}
+
+.footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
