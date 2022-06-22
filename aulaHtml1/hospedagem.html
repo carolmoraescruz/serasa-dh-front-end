@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,11 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow|Anton">
 
     <title>Hospedagem</title>
 </head>
+
 <body>
     
     <div class="container">
@@ -29,13 +32,14 @@
             </ul>
         </nav>
 
-        <section>
+        <section class="banner">
             <img src="img/Cancun-3.jpg" alt="Banner Cancun"/>
         </section>
 
-        <section>
+        <section class="resorts">
 
             <header>Resorts</header>
+
             <article>
                 <p>
                     Se você quer viajar para relaxar, mas também aproveitar bons momentos de diversão, os resorts não decepcionam. A grande maioria se preocupa em oferecer uma programação para crianças e adultos. As atividades podem variar de resort para resort, mas as piscinas são figurinhas carimbadas desse tipo de hospedagem. As festas temáticas e shows de música ao vivo também costumam fazer parte da programação. Muitos resorts oferecem serviços de SPA, o que pode agregar ainda mais valor nessa experiência. Só é preciso ter atenção ao que está incluso na diária e o que é pago à parte.
@@ -47,28 +51,28 @@
         <div>
 
             <!-- divisão da linha -->
-            <div>
+            <div class="row">
                 
                 <!-- divisão da coluna 1 -->
-                <div>
-                    <img src="img/cancun-bay-resort.webp" alt="cancunbayresort" />
-                    <div>
+                <div class="column">
+                    <img class="img-card" src="img/cancun-bay-resort.jpg" alt="cancunbayresort" />
+                    <div class="banner-card">
                         <a href="#">Cancun Bay Resort</a>
                     </div>
                 </div>
 
                 <!-- divisão da coluna 2 -->
-                <div>
-                    <img src="img/coral-beach.webp" alt="coralbeach" />
-                    <div>
+                <div class="column">
+                    <img class="img-card" src="img/coral-beach.jpg" alt="coralbeach" />
+                    <div class="banner-card">
                         <a href="#">Coral Beach Resort</a>
                     </div>
                 </div>
 
                 <!-- divisão da coluna 1 -->
-                <div>
-                    <img src="img/haven-riviera.jpg" alt="havenriviera" />
-                    <div>
+                <div class="column">
+                    <img class="img-card" src="img/haven-riviera.jpg" alt="havenriviera" />
+                    <div class="banner-card">
                         <a href="#">Haven Riviera Resort</a>
                     </div>
                 </div>
@@ -77,20 +81,20 @@
 
         </div>
 
-        <section>
+        <section class="reserva">
             <h3>Encontre sua próxima estadia</h3>
-            <button type="button">Reserve já</button>
+            <button type="button"><a href="#">Reserve já</a></button>
         </section>
 
         <footer class="footer">
-            <img src="img/logo-sem-fundo.png" alt="CMC Viagens" />
+            <img class="logo" src="img/logo-sem-fundo.png" alt="CMC Viagens" />
 
             <ul>
-                <li><i class="fab fa-instagram"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-facebook-f"></i></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
             </ul>
-            <p>
+            <p class="creditos">
                 &copy; CMC Viagens - Brasil - 2022
             </p>
         </footer>

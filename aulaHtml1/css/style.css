@@ -1,27 +1,34 @@
 .container{
     background-color: #f2f2f2;
-    /*background-image: url(../img/Cancun-3.jpg);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-
-    background-image: linear-gradient(blue, aquamarine, white); */
-
+    width: 80%;
+    margin-left: 10%;
 }
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* cabeçalho da página */
 
 .header{
     background-color: gold;
 }
+/* menu no início da página */
 
 .nav-bar li{
     float: left;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 .nav-bar ul{
     list-style-type: none;
     overflow: hidden;
-    background-color: blue;
-    margin: 0px;
-    padding: 5px;
+    padding-left: 30%;
+    background-color: Royalblue;
+    font-family: "Anton", sans-serif;
 }
 
 .nav-bar li a{
@@ -36,9 +43,148 @@
     color: blue;
 }
 
-.footer {
+/* banner */
+
+.banner img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.resorts {
+    margin-top: 25px;
+    padding: 5px;
+    font-family: "Varela_Round", sans-serif;
+}
+
+.resorts header {
+    text-align: center;
+    color: rgb(14, 14, 145);
+    font-size: 35pt;
+}
+
+.resorts article {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resorts p {
+    padding: 5px;
+    text-align: justify;
+    color: rgb(14, 14, 145);
+    font-size: 16pt;
+}
+
+/* cards */
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 12px;
+    height: 295px;
+    margin: 2% 0 2% 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 365px;
+}
+
+.banner-card {
+    width: 365px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    text-align: center;
+    background-color: DimGray;
+    font-family: "Anton", sans-serif;
+}
+
+.banner-card a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* reserva */
+
+.reserva {
+    background-image: linear-gradient(RoyalBlue, LightSkyBlue);
+    height: 250px;
+}
+
+.reserva h3 {
+    text-align: center;
+    font-size: 25pt;
+    color: white;
+    padding: 35px 0;
+}
+
+.reserva button {
+    background-color: gold;
+    padding: 20px 26px;
+    color: blue;
+    font-size: 20pt;
+    border-color: gold;
+    border-radius: 8px 0;
+    margin-bottom: 20px;
+    margin-left: 45%;
+}
+
+.reserva button a{
+    text-decoration: none;
+    color: blue;
+}
+
+.reserva button a:hover {
     background-color: blue;
     color: white;
+}
+
+/* rodapé da página */
+
+.footer {
+    background-image: linear-gradient(LightSkyBlue, CornflowerBlue);
+    margin-top: 5px;
+    color: white;
     text-align: center;
-    padding: 10px;
+}
+
+.footer li {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.footer ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.footer li a {
+    color:white;
+    text-decoration: none;
+    padding: 24px 20px;
+}
+
+.footer li a:hover {
+    color:blue;
+}
+
+.creditos {
+    margin-top: 2%;
 }
