@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="font/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow|Anton">
 
+    <script src="js/funcionalidades.js"></script>
+
     <title>Hospedagem</title>
 </head>
 
@@ -83,7 +85,7 @@
 
         <section class="reserva">
             <h3>Encontre sua próxima estadia</h3>
-            <button type="button"><a href="reserva.html">Reserve já</a></button>
+            <button type="button" onclick="abrirJanela()">Reserve já</button>
         </section>
 
         <footer class="footer">
@@ -102,4 +104,13 @@
     </div>
 
 </body>
+
+<script>
+
+    function abrirNovaJanela() {
+        window.location.href = "reserva.html"
+    }
+
+</script>
+
 </html>
